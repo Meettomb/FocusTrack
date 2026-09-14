@@ -22,3 +22,8 @@ that helps users manage tasks, track application usage, and analyze their produc
 - Productivity analytics
 - Usage history
 - Dark and light themes
+
+## Legal
+
+- [Privacy Policy](PRIVACY_POLICY.md)
+- [Terms of Use](TERMS_OF_USE.md)
