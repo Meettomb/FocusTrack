@@ -1,7 +1,6 @@
 # FocusTrack
 
-FocusTrack is a Windows desktop productivity and time-tracking application
-that helps users understand how they spend their time and stay organized.
+FocusTrack is a Windows desktop productivity and time-tracking application designed to help users manage tasks, track application usage, and understand how they spend their time.
 
 <p align="center">
     <a href="https://get.microsoft.com/installer/download/9p7xcvb104jd?referrer=appbadge">
