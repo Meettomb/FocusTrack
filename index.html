@@ -97,63 +97,76 @@
 
       <div class="container hero-container">
 
-        <div class="hero-content reveal">
+        <!-- HERO TOP -->
+        <div class="hero-content">
 
-          <div class="eyebrow">
-            <span class="eyebrow-dot"></span>
-            Windows Productivity App
+          <!-- LEFT CONTENT -->
+          <div class="hero-main">
+
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              <span>Windows Productivity App</span>
+            </div>
+
+            <h1>
+              Windows screen time tracker.
+              <span>Understand your time. Improve your focus.</span>
+            </h1>
+
+            <p class="hero-description">
+              FocusTrack is a Windows productivity and screen time tracker that helps
+              you monitor application usage, track your time, manage tasks, set app
+              limits, and understand how you spend your time.
+            </p>
+
           </div>
 
 
-          <h1>
-            Windows screen time tracker.
-            <span>Understand your time. Improve your focus.</span>
-          </h1>
+          <!-- RIGHT CONTENT -->
+          <div class="hero-side-content">
 
+            <div class="hero-actions">
 
-          <p class="hero-description">
-            FocusTrack is a Windows productivity and screen time tracker that helps
-            you monitor application usage, track your time, manage tasks, set app
-            limits, and understand how you spend your time.
-          </p>
+              <a href="https://get.microsoft.com/installer/download/9p7xcvb104jd?referrer=appbadge" target="_blank"
+                rel="noopener noreferrer" class="button button-primary">
+                Get FocusTrack
+                <span>↗</span>
+              </a>
 
+              <a href="#screenshots" class="button button-secondary">
+                Explore the app
+                <span>↓</span>
+              </a>
 
-          <div class="hero-actions">
+            </div>
 
-            <a href="https://get.microsoft.com/installer/download/9p7xcvb104jd?referrer=appbadge" target="_blank"
-              rel="noopener noreferrer" class="button button-primary">
-              Get FocusTrack
-              <span>↗</span>
-            </a>
-
-
-            <a href="#screenshots" class="button button-secondary">
-              Explore the app
-              <span>↓</span>
-            </a>
 
             <div class="store-badge">
-              <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+
+              <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js">
+              </script>
+
               <ms-store-badge productid="9p7xcvb104jd" productname="Focus Track" window-mode="direct" theme="dark"
                 size="large" language="en-us" animation="on">
               </ms-store-badge>
+
             </div>
 
-          </div>
 
+            <div class="hero-meta">
 
-          <div class="hero-meta">
+              <div class="meta-item">
+                <strong>Windows</strong>
+                <span>Desktop application</span>
+              </div>
 
-            <div class="meta-item">
-              <strong>Windows</strong>
-              <span>Desktop application</span>
-            </div>
+              <div class="meta-divider"></div>
 
-            <div class="meta-divider"></div>
+              <div class="meta-item">
+                <strong>Productivity</strong>
+                <span>Time tracking &amp; analytics</span>
+              </div>
 
-            <div class="meta-item">
-              <strong>Productivity</strong>
-              <span>Time tracking & analytics</span>
             </div>
 
           </div>
@@ -161,10 +174,8 @@
         </div>
 
 
-
-        <!-- REAL APPLICATION SCREENSHOT -->
-
-        <div class="hero-preview reveal">
+        <!-- HERO VIDEO -->
+        <div class="hero-preview">
 
           <div class="window-frame">
 
@@ -174,9 +185,7 @@
 
                 <img src="./assets/focustrack-icon.png" alt="FocusTrack" class="window-logo">
 
-                <span>
-                  FocusTrack
-                </span>
+                <span>FocusTrack</span>
 
               </div>
 
@@ -192,7 +201,12 @@
 
             <div class="preview-image-wrapper">
 
-              <img src="./screenshots/1 - Home Page.png" alt="FocusTrack Home Page" class="preview-image">
+              <video class="preview-video" autoplay muted loop playsinline preload="metadata">
+                <source src="./assets/FocusTrack_MicrosoftStore_Final - 1.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+
+              </video>
 
             </div>
 
@@ -541,25 +555,21 @@
 
           <div class="technology-tags">
 
-            <span>
-              C#
-            </span>
+            <span>C#</span>
 
-            <span>
-              .NET
-            </span>
+            <span>.NET</span>
 
-            <span>
-              WPF
-            </span>
+            <span>WPF</span>
 
-            <span>
-              SQLite
-            </span>
+            <span>ASP.NET Core</span>
 
-            <span>
-              Windows
-            </span>
+            <span>Web API</span>
+
+            <span>SQLite</span>
+
+            <span>MongoDB</span>
+
+            <span>Windows</span>
 
           </div>
 
@@ -602,7 +612,7 @@
             </span>
 
             <strong>
-              Desktop
+              WPF Desktop
             </strong>
 
           </div>
@@ -624,11 +634,37 @@
           <div class="tech-row">
 
             <span>
-              Database
+              Backend
+            </span>
+
+            <strong>
+              ASP.NET Core Web API
+            </strong>
+
+          </div>
+
+
+          <div class="tech-row">
+
+            <span>
+              Local Database
             </span>
 
             <strong>
               SQLite
+            </strong>
+
+          </div>
+
+
+          <div class="tech-row">
+
+            <span>
+              Cloud Database
+            </span>
+
+            <strong>
+              MongoDB Atlas
             </strong>
 
           </div>
